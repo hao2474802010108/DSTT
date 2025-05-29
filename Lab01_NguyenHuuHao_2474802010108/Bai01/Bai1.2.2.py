@@ -2,12 +2,12 @@
 #1
 print("\n1. Thao tác với list:")
 try:
-    mylin = [10, 20, 30]
-    print("mylin =", mylin)
+    mylist = [100, 200, 300]
+    print("mylist =", mylist)
     a = b = c = 0
     print("a, b, c =", a, b, c) 
-    mylin_empty = []
-    print("mylin_empty =", mylin_empty) 
+    mylist_empty = []
+    print("mylist_empty =", mylist_empty) 
 except Exception as e:
     print("Lỗi:", type(e).__name__, ":", e)
 #2
